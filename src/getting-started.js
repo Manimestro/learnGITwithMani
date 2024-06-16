@@ -15,6 +15,7 @@
     // clients do not just check out the latest snapshot of files; they mirror the entire repository, complete with its full history
     // Developers can work independently, commit changes locally, and then synchronize and share their changes with others
 
+
 //History
 
     // The Linux kernel, a significant open-source project, initially managed changes through patches and archived files from 1991 to 2002.
@@ -23,3 +24,21 @@
     // Git was born from this initiative, incorporating lessons learned from BitKeeper.
 
     // Now git developed by linux kernal community
+
+
+//about git
+
+    // git is a special and unique DVCS
+    // git stores entire project as a snapshot. dont give a shit of files or file names, location of files
+    // at every snapshot git has a full project
+    // git stores refs of prev files if files not chamges on revision to optimise data storage
+    // git uses sha-1 hash cryptography to generate a hexa decimal value for each time a file changes a new hash is generated
+    // git only see the content and generate hash.. if a sample content is there in multiple files hash is always same and it wont duplicate it instead it will reference it for the current snapshot
+    // files can be untracked, modified, staged, commited
+    // git dont consider untracked or ignored files
+    // git saves the data storngly if it is commited. git only stores the info ..wheter you delete, add , modify content git only adds to database wont do delete operations
+    // modified ---> working dir
+    // staged ----> staging area
+    // commited ---> git dir
+    // we need to send the modified files to stagging area .. to conform that they will be in new snapshot as a chnaged file
+    // using commit id and hash conforms that content is only stored once.. irrespective of filename, or location
