@@ -1,8 +1,8 @@
 //stashing
 
 //Usage:
-// When you're in the middle of working on your project and
-// need to switch branches or work on something else without committing your changes
+    // When you're in the middle of working on your project and
+    // need to switch branches or work on something else without committing your changes
 
 // git stash ---> stash the changes (all uncommited files)
 // git stash list ---> list items in stack stash@{index}
@@ -19,3 +19,17 @@
 
 // Saved working directory and index state WIP on main: 4776dbb added stashing
 // stash@{0}: WIP on main: 4776dbb added stashing
+
+
+//cleaning (danger)
+
+//Usage:
+    //This is useful for getting rid of untracked files
+
+// git clean -d -f  --> removes the untracked files and directories
+// options :
+    // -f ---> force deletecj
+    // -d ---> deletes directories
+    // -n ---> list delete files (safe)
+    // -x ---> removes ignore files
+// git clean -i (adv) ---> interactive cleaning
