@@ -42,3 +42,7 @@
     // commited ---> git dir
     // we need to send the modified files to stagging area .. to conform that they will be in new snapshot as a chnaged file
     // using commit id and hash conforms that content is only stored once.. irrespective of filename, or location
+
+// ways to use
+    // git cleint
+    // command line interface (best)
