@@ -10,3 +10,9 @@
 // git checkout -b [new branch] [tagname] --> creates new branch of that tag version and switch to it
 
 
+
+// git alias
+
+// usage : If you don’t want to type the entire text of each of the Git commands we can alias
+
+// git config --global alias.logger git log --oneline --> alias command to logger, we can use git logger
