@@ -20,6 +20,7 @@
 // branching is cheaper (writing a 40char checksum to new file) which is pointing commit
 
 // git checkout -b [name] --> creates and switches at same time
+// git branch -d [name] --> deletes branch
 
 // git maintain a refernce called HEAD which points to active working branch so that git updates the branch ref to new commit
 
@@ -31,4 +32,19 @@
 // git checkout [main branch]
 
 // git merge [feature branch] --> git merges the feat branch to main branch
+
+
+// types of merging
+
+// fast-forwarding (simply move the pointer forward)
+// When the commit history of the current branch is a subset of the branch you want to merge, fast-forwarding will occur
+
+// 3-way-merge
+
+// if the tip of main branch is not present in feat branch
+// git will find the common commit in two branches and start merging each commit
+// and make a merge commit that commit is a new snapshot with the merges of two divergent branches
+// merge commit has two parent commits each from tip of each branch
+
+// if we get conflicts we need to resolve them and need to stage them .
 
