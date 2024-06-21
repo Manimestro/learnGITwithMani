@@ -22,3 +22,13 @@
 // git checkout -b [name] --> creates and switches at same time
 
 // git maintain a refernce called HEAD which points to active working branch so that git updates the branch ref to new commit
+
+
+// git merging
+
+// when we finish working on a branch and you want to add that changes(commits) on another branch
+
+// git checkout [main branch]
+
+// git merge [feature branch] --> git merges the feat branch to main branch
+
