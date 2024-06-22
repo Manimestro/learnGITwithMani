@@ -60,11 +60,11 @@
 // git branch -D [name] --> delete unmerged branches too
 // git branch --merged --> shows merged branches
 // git branch --not-merged --> shoes unmerged branches
-// git branch --all --> shows all the branches 
+// git branch --all --> shows all the branches
 
 
 // use case : when you want to rename a branch in local and push it to remote and delete old branch in remote
 // git branch -m [name] --> renames branch
 // git push origin [name] --> push renamed branch to remote
 // git branch -all --> see all remote and local branches
-// git push -d origin [old branch] --> delete branch on remote
+// git push origin --delete [old branch] --> delete branch on remote
