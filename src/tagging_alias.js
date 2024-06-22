@@ -1,4 +1,4 @@
-// tagging a commit ref
+//! tagging a commit ref
 
 // usage: if you want to mark up to a commit as a version then .. tags are usefull
 
@@ -11,7 +11,7 @@
 
 
 
-// git alias
+//! git alias
 
 // usage : If you don’t want to type the entire text of each of the Git commands we can alias
 

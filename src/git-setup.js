@@ -1,3 +1,5 @@
+//! git setup
+
 // after installing git
 
 // setup git envinorment which is git config
@@ -22,7 +24,7 @@
 
         // git config [key] ---> to Read values
 
-// how to make a repo to gitrepo
+//! ways to create a git repo
 
 // 1.git init -----> initialize an git repo using
 // 2.git clone [ssh/https url]-----> clone from the remote server

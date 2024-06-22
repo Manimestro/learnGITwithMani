@@ -1,4 +1,4 @@
-// git ignoring
+//! git ignoring
 
 // git ignores only if it is not already tracked
 // .gitignore

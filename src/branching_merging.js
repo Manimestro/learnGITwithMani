@@ -1,4 +1,4 @@
-// git branching
+//! git branching
 
 // usage: you want want to work different versions of versions
 
@@ -25,7 +25,7 @@
 // git maintain a refernce called HEAD which points to active working branch so that git updates the branch ref to new commit
 
 
-// git merging
+//! git merging
 
 // when we finish working on a branch and you want to add that changes(commits) on another branch
 
@@ -34,7 +34,7 @@
 // git merge [feature branch] --> git merges the feat branch to main branch
 
 
-// types of merging
+//! types of merging
 
 // fast-forwarding (simply move the pointer forward)
 // When the commit history of the current branch is a subset of the branch you want to merge, fast-forwarding will occur
@@ -53,7 +53,7 @@
 // when we do merge the merge commit  holds the refernce of all the changes that are added on merge (if we remove that commit all changes are discarded)
 
 
-// git branch management
+//! git branch management
 
 // git push --set-upstream [branch name ]--> this will push changes to branch and also set tracking (we can use git push to push to that branch or git pull) if we set upstream
 // git branch -d [name] --> delete branch with are allready merged into HEAD branch
@@ -61,7 +61,6 @@
 // git branch --merged --> shows merged branches
 // git branch --not-merged --> shoes unmerged branches
 // git branch --all --> shows all the branches
-
 
 // use case : when you want to rename a branch in local and push it to remote and delete old branch in remote
 // git branch -m [name] --> renames branch

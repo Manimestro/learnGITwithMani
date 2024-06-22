@@ -1,4 +1,4 @@
-// making a first commit
+//! making first commit
 
 // git status ---> to see the status of all files and entire repo
 // status can be untracked,unmodified,modified, stagged, commited
@@ -13,7 +13,7 @@
 // git commit -m [commit message] ---> to make a new snapshot with the files in stagging area
 // git commit -a -m [commit message] ---> stage and commit all modified files
 
-// delete files from working dir and git dir
+//! delete files from working dir and git dir
 
 // rm [file] ---> remove locally
 // git add [file] --> stage
@@ -21,7 +21,7 @@
 
 // or
 
-// git rm [file] + git add [file] --> git rm [file] --> removes and stage the file
+// rm [file] + git add [file] --> git rm [file] --> removes and stage the file
 // git commit -m [msg] --> commit the deletion version
 
 // options :
