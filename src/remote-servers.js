@@ -1,4 +1,4 @@
-// remote servers
+//! remote servers
 
 // git clone [url]--> clone remote repo with .git dir and remote server url
 // remote name defaults to origin (it is url )
@@ -8,7 +8,7 @@
 // git remote rename [name]
 
 
-// fetching data
+//! fetching data
 
 // git fetch  ---> fetches all branches in remote server (wont sync with local branch)
 // git merge ---> sync branch with respective branches

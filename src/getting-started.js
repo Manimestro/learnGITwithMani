@@ -1,4 +1,4 @@
-//getting started with version control systems (VCS)
+//! getting started with version control systems (VCS)
 
     // Version control is a system that tracks changes to a file or a set of files over time
 
@@ -16,7 +16,7 @@
     // Developers can work independently, commit changes locally, and then synchronize and share their changes with others
 
 
-//History
+//! History on git origin
 
     // The Linux kernel, a significant open-source project, initially managed changes through patches and archived files from 1991 to 2002.
     // In 2002, the project adopted BitKeeper, a proprietary Distributed Version Control System (DVCS).
@@ -26,7 +26,7 @@
     // Now git developed by linux kernal community
 
 
-//about git
+//! git as a unique DVCS
 
     // git is a special and unique DVCS
     // git stores entire project as a snapshot. dont give a shit of files or file names, location of files
@@ -43,6 +43,6 @@
     // we need to send the modified files to stagging area .. to conform that they will be in new snapshot as a chnaged file
     // using commit id and hash conforms that content is only stored once.. irrespective of filename, or location
 
-// ways to use
+//! ways to use git 
     // git cleint
     // command line interface (best)

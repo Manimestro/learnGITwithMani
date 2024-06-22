@@ -1,4 +1,4 @@
-//stashing
+//! stashing
 
 //Usage:
     // When you're in the middle of working on your project and
@@ -21,7 +21,7 @@
 // stash@{0}: WIP on main: 4776dbb added stashing
 
 
-//cleaning (danger)
+//! cleaning (danger)
 
 //Usage:
     //This is useful for getting rid of untracked files
