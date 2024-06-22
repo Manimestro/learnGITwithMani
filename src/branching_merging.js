@@ -67,3 +67,11 @@
 // git push origin [name] --> push renamed branch to remote
 // git branch -all --> see all remote and local branches
 // git push origin --delete [old branch] --> delete branch on remote
+
+//! Branching Workflows
+
+// create a master branch (stable for prod)
+// create a develop branch (stable for stagging)
+// create a branch for bugfixs , features (experemnet )
+
+// if we done work we can merge them to higher branches and delete
