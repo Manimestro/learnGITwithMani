@@ -118,3 +118,10 @@
 
 // git fetch --all --> fetches all remotes and update cache
 // git branch -vv --> shows real stats (updated stats now)
+
+//! pulling
+
+// git pull origin main --> this looks for remote main branch and fetches  and merges with current branch
+// git pull --> this looks for remote tracking for this branch if exists then it will fetch from there and merges to this branch
+// git branch --delete origin main--> deltes remote branch main
+
