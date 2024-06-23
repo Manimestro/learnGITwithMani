@@ -75,3 +75,46 @@
 // create a branch for bugfixs , features (experemnet )
 
 // if we done work we can merge them to higher branches and delete
+
+//! remote branches
+
+// branches on server are remote branches
+// when we interact with server the server branch will update
+// git remote show [name] --> shows all remote branches
+// output
+// * remote origin
+//   Fetch URL: git@github.com:Manimestro/learn-git.git
+//   Push  URL: git@github.com:Manimestro/learn-git.git
+//   HEAD branch: main (remote branch currently checkedout)
+//   Remote branches: (all remote branches)
+//     main    tracked
+//     master  tracked
+//     master2 tracked
+//   Local branch configured for 'git pull':(local<--remote)
+//     main merges with remote main
+//   Local ref configured for 'git push': (local-->remote)
+//     main pushes to main (up to date)
+
+// git fetch <remote> ---> this updates remote branches reference in the local branch
+
+
+// here there are three things
+// 1. remote branches
+// 2. local branches
+// 3. remote branches on local branch(these are updated when we fetch or push to remote)
+
+// git remote add [url] --> this will add new origin
+// we can have multiple remote servers and mutiple branches in it
+// git push [remote] [localbranch]:[remotebranch] --> local branch to remote branch pushing
+// git fetch origin [remotebranch] --> creates or update remote branch pointer on local machine
+// git checkout -b [local branch name] [remote]/[branch] --> checkout to new branch points to remote branch
+
+//! Tracking Branches
+
+// git checkout --track origin/serverfix --> this is same as creating branc from remote and tracking
+// git checkout [branchname] --> if there is no branch with that and git origin have only one remote branch with that git will create a new branch and tracking
+
+// git branch -vv --> show all local branches with their respective upstreamm branches
+
+// git fetch --all --> fetches all remotes and update cache
+// git branch -vv --> shows real stats (updated stats now)
