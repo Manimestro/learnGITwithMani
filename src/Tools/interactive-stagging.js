@@ -10,3 +10,8 @@
 // > r --> for revert
 // > enter file number --> to unstage that file
 // > d --> to show diff of stagged to unstaged files
+
+//! Staging Patches
+// > p --> starting picking the hunks in a file
+// > enter file number --> to pick from that file
+// start picking hunks to stage 
