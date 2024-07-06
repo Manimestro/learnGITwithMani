@@ -2,6 +2,9 @@
 
 // !Staging and Unstaging Files
 // git add -i --> opens interactive mode for staging
+// > s --> status
+// > a --> add untracked
+// > q --> quit
 // > u --> for update
 // > enter file number --> to stage that file
 // > r --> for revert
