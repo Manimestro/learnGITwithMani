@@ -26,3 +26,18 @@
 // lieutenant reviews and merges in thier master branch
 // lieutenat makes Pull request to master repo
 // dictator reviews and merges with the master branch of master repo
+
+
+//! Contributing to a Project
+
+//! Commit Guidelines
+
+// make a clear commit message (no more than about 50 char)
+// https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+// short message + blank line + long message(74<col) with bullet points
+// no whitespaces (git diff --check )
+// always make commits for a topic
+
+// git merging happens on client rather then server
+// while pushing (1edee6b..fbff5bc  master -> master) --> ((oldref..newref of server)  fromref → toref (branches))
+//
