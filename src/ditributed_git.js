@@ -26,3 +26,35 @@
 // lieutenant reviews and merges in thier master branch
 // lieutenat makes Pull request to master repo
 // dictator reviews and merges with the master branch of master repo
+
+
+//! Contributing to a Project
+
+//! Commit Guidelines
+
+// make a clear commit message (no more than about 50 char)
+// https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+// short message + blank line + long message(74<col) with bullet points
+// no whitespaces (git diff --check )
+// always make commits for a topic
+
+// git merging happens on client rather then server
+// while pushing (1edee6b..fbff5bc  master -> master) --> ((oldref..newref of server)  fromref → toref (branches))
+// git log --no-merges [branch1]..[branch2] --> difference in commits in two branches
+
+// Types of organisations
+
+// Private Small Teams :
+// generally commit, fetch, merge , push and repeat by all developers
+
+// Private Managed Team:
+// here a group of teams work parllely and a intergation manager approves and merge to main branch
+
+// Forked public Project:
+// fork the repo , get remote url , fetch to local and madke commits push to local feat branch and make a pull request to original repo
+// get the remote url from the orignal repo now
+// git remote add origin2 [original remote url]
+// git request-pull [our remote]/[branch name] origin2 --> this raises a PR to origin2 default branch
+
+// git merge --squash [branch] --> this will merge the branch without commiting (leaves on stagged area)
+// 
