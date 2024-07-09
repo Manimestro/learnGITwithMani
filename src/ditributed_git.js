@@ -57,4 +57,14 @@
 // git request-pull [our remote]/[branch name] origin2 --> this raises a PR to origin2 default branch
 
 // git merge --squash [branch] --> this will merge the branch without commiting (leaves on stagged area)
-// 
+
+// while a new branch came from remote
+// you fetch, and create and  checkout to that branch
+// to find diff between the new branch and existing (either commit or file changes)
+// git log [branch name] --> log for a branch (lets say existing branch )
+// git log [branch name] --not [second branch name] --> shows commits not present in second branch ()
+// git diff [branchname] --> shows diff between branches
+// git merge-base [branch1] [branch2] --> this will get a common ansistor commit
+// git diff [commit hash] [branch2] --> you can see differnce between the two refs
+// or even simplier is
+// git diff [branch]...[topic_branch] -> this will do same takes common ansistor commit and show diff with current branch
