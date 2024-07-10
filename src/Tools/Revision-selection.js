@@ -24,3 +24,16 @@
     // git show HEAd^1 --> points to parent of head
     // git show HEAd^2 --> points to second parent of head (if it had one)
 
+    // !commit ranges
+    // if we want to see the commits in one branch that are not in other
+
+        // !double dot
+        // git log branchA..branchB --> commits of branchB that are not in BranchA
+
+        // !multiple dots
+        // git log branchA branchB ^branchC --> commits of branchC which is not present in branchA or branchB
+        // if carrot is placed before the ref then  we can see the commit  ranges with multiple branches
+
+        //! triple dot
+        // git log branchA...branchB --> this will show all commits that are not in both the branches
+        // this is better then double dots but not specific to branch order
