@@ -4,9 +4,7 @@ Welcome to the Git Complete Guide repository! This repository aims to provide a 
 
 ## Topics Covered
 
-Explore different aspects of Git through dedicated files:
-
-- **stashing** ---> stash.js
+Explore different aspects of Git through dedicated files
 
 ## Contributing
 
