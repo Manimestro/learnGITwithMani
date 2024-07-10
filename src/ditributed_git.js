@@ -68,3 +68,19 @@
 // git diff [commit hash] [branch2] --> you can see differnce between the two refs
 // or even simplier is
 // git diff [branch]...[topic_branch] -> this will do same takes common ansistor commit and show diff with current branch
+
+// cherry picking and rebasing workflows
+// git cherry-pick [commit hash] ---> apply commit on top of curr branch
+
+// generate build number
+// as we know how to tag a commit (special revision)
+// git describe [branch name] --> gives latest-tag_no.of.commits after that_part of hash   as a build number we can use
+
+
+// now releasing build
+// if we want to create a zip file up to that commit
+// git archive --prefix="release/" --format=zip main > $(git describe main).zip   --> create a zip file for realese
+
+
+// release notes
+// git shortlog commit1..comit2 --> write all commits 
