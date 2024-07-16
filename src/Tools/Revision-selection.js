@@ -17,3 +17,10 @@
     // it is completly local cannot be sent to remote or integrate with it
     // git show HEAD@{index}
 
+    // !Ancestry References
+    // git show HEAD~1 --> points to parent of head
+    // git show HEAD~10 --> points to 10 commits above of head
+
+    // git show HEAd^1 --> points to parent of head
+    // git show HEAd^2 --> points to second parent of head (if it had one)
+
