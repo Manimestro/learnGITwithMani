@@ -1,3 +1,5 @@
+//! rewriting history
+
 // !Changing the Last Commit
 // git commit --amend --> for rewriting latest commits
 
@@ -21,3 +23,12 @@
 // squash 310154e Update README formatting and add blame
 // squash a5f4a0d Add cat-file
 // here the squash means it squashed with prev commit so all three are get squashed
+
+// !Deleting a commit
+// use drop --> to remove that commit
+
+//! Splitting a Commit
+// slipt the commit while editing it
+// git rebase -i HEAD~3 --> start rebase
+// edit script for a commit add EDIT and save file
+// while on that commit reset it and split the commit
