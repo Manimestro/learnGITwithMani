@@ -15,3 +15,9 @@
 // pick a5f4a0d Add cat-file
 // the 3 commits above in the script are source.. if you delete a line here the commit wont shown in history
 
+//! Squashing Commits
+// mutiple commits can be squashed into single commit
+// pick f7f3f6d Change my name a bit
+// squash 310154e Update README formatting and add blame
+// squash a5f4a0d Add cat-file
+// here the squash means it squashed with prev commit so all three are get squashed
