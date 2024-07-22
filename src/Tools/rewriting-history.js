@@ -36,7 +36,11 @@
 //! The Nuclear Option: filter-branch
 
 // git filter-branch --tree-filter 'rm -rf file.py' HEAD
+// this shell command excutes on the context of working dir of each commit
 // --> --tree-filter will rebase commmits till we need and excute the shell command that we pass
 // and re-commits them
 // this is pretty usefull if you add a file or delete a file in all the commits
 
+//  git filter-branch --commit-filter 'shell script' HEAD
+// --> this do same as tree filter but it excutes commands on commit context where we can get the commit meta data
+// and also can change it
