@@ -32,3 +32,11 @@
 // git rebase -i HEAD~3 --> start rebase
 // edit script for a commit add EDIT and save file
 // while on that commit reset it and split the commit
+
+//! The Nuclear Option: filter-branch
+
+// git filter-branch --tree-filter 'rm -rf file.py' HEAD
+// --> --tree-filter will rebase commmits till we need and excute the shell command that we pass
+// and re-commits them
+// this is pretty usefull if you add a file or delete a file in all the commits
+
