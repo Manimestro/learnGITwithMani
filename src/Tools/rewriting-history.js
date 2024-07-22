@@ -26,3 +26,9 @@
 
 // !Deleting a commit
 // use drop --> to remove that commit
+
+//! Splitting a Commit
+// slipt the commit while editing it
+// git rebase -i HEAD~3 --> start rebase
+// edit script for a commit add EDIT and save file
+// while on that commit reset it and split the commit
