@@ -30,3 +30,9 @@
 // Move the branch HEAD points to (stop here if --soft).
 // Make the index look like HEAD (stop here unless --hard).
 // Make the working directory look like the index.
+
+//! Reset With a Path
+
+// we can reset a path not a whole commit
+// git reset HEAD path --> this is same like reset but skips first step
+// it will change the stagging area to look like that commit only for that path
