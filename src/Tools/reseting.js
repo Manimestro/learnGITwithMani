@@ -12,9 +12,7 @@
 // then add them to stagging area
 // while git commit will look at stagging area
 // it see difference between stagging area and HEAD(last commit)
-// if there is any difference the a new commit will created
-// and HEAD is moved to lateset (which is checkouts to lateset commit)
-// branch reference moves to lateset commit
+// and branch ref  is moved to lateset commit
 // and working dir will have the snapshot of HEAD
 
 //!  reseting
@@ -36,3 +34,19 @@
 // we can reset a path not a whole commit
 // git reset HEAD path --> this is same like reset but skips first step
 // it will change the stagging area to look like that commit only for that path
+
+
+//! differnce bwt Checkout and reset
+
+// reset moves the branch ref but checkout moves the HEAD
+
+// no path
+// git checkout master --> this moves HEAD --> master
+// checkout will do a check for modified files and keep that files and updates the unmodified files
+// git reset --hard master --> this will update the current branch ref (risky)
+
+// with path (nothing will update HEAD because of path)
+// git checkout master [path] --> this will update the file same as master's file (riscky)
+// git reset  master [path] --> this will update the stagging area with file same as master's file
+
+//fir tho risk dhono sides be hai kaleen bhaiyaa
